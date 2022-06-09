@@ -161,6 +161,12 @@ text-decoration: none;
     align-items: center;
 }
 
+#color object, #profile img {
+    align-items: center;
+    padding-top: 30%;
+}
+
+
 /*pagina nome*/
 body {
     font-family: 'Arial';
