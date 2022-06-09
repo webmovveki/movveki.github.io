@@ -33,7 +33,19 @@ body {
     }
 }
 
-*{
+main {
+    margin-top: 119px;
+    padding: 70px 10%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-height{
+    min-height: calc(100vh - 119px - 80px);
+}
+
+* {
     box-sizing: border-box;
 }
 
@@ -49,8 +61,8 @@ body {
     background-color: #F5F7FF;
 }
 
-/* Typography */
-h1, h2, h3, h4, h5, p {
+/*Caratteri*/
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -81,19 +93,26 @@ h5 {
     justify-content: center;
 }
 
+h6 {
+    font-size: 25px;
+    color: #0025FF;
+    font-weight: 500;
+    justify-content: center;
+}
+
 p {
     font-size: 30px;
     color: #0025FF
   }
 
-/* Links */
+/*Links*/
 a:link {
     text-decoration: none;
     color: #0025FF;
     padding-bottom: 20px;
 }
 
-/* navbar */
+/*Navbar*/
 nav#main-nav {
     width: 100%;
     height: 150px;
@@ -114,7 +133,7 @@ nav#main-nav {
     width: 100%;
 }
 
-/* Buttons */
+/*Pulsanti*/
 button {
     border-radius: 50%;
     font-size: 25px;
@@ -148,6 +167,13 @@ button {
     background-color: #98ff98
 }
 
+.button-avanti {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #98ff98
+}
+
 .button-nav:hover {
     background-color: #98ff98;
 }
@@ -156,7 +182,7 @@ a {
 text-decoration: none;
 }
 
-/*immagini*/
+/*Immagini*/
 #color object, #color img {
     align-items: center;
 }
@@ -166,8 +192,25 @@ text-decoration: none;
     padding-top: 30%;
 }
 
+/*Home*/
+main#hero {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#hero-text {
+    text-align: center;
+    width: 100%;
+}
 
-/*pagina nome*/
+
+@media screen and (max-width: 1100px) {
+    main#hero {flex-direction: column-reverse; justify-content: space-around;}
+    #hero-text {width: 100%; text-align: center;}
+}
+
+
+/*Pagina Nome*/
 body {
     font-family: 'Arial';
     font-size: 15pt;
@@ -185,7 +228,7 @@ input[type=text] {
       font-size: 30px;
 }
 
-/*pagina chi siamo*/
+/*Pagina chi siamo*/
 main#chi_siamo{
     text-align: center;
 }
@@ -196,10 +239,32 @@ main#chi_siamo{
     justify-content: space-around;
 }
 
-
 .person {
-    margin: 20px 20px;
+    margin: 50px 50px;
     display: inline-block;
-    height:223px;
-    width: 223px;
 }
+
+#progetto {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    #progetto>p {width: 80%;}
+}
+
+
+/*Pagina range*/
+input[type="range"] { 
+    -webkit-appearance: none;
+    background-color: #0025FF;
+    height: 10px; 
+    width: 711px;
+} 
+
+input[type="range"]::-webkit-slider-thumb { 
+    -webkit-appearance: none;
+    background-color: #F5F7FF;
+    height: 34px; 
+    width: 34px;
+    border-radius: 50%;
+} 
