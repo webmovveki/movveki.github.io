@@ -63,48 +63,54 @@ p::selection, span::selection, p a:link::selection {
 
 
 /*Caratteri*/
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-h2 {
-    font-size: 40px;
-    color: #0025FF;
-    text-align: center;
-    justify-content: center;
-}
-h3 {
+/*TESTI PRINCIPALI*/
+h1 {
     font-size: 50px;
     color: #0025FF;
     text-align: center;
-    padding-top: 15%;
     justify-content: center;
-}
-h4 {
-    font-size: 25px;
-    color: #0025FF;
-    font-weight: 400;
+    font-weight: 300;
 }
 
-h5 {
-    font-size: 40px;
-    padding: 15%;
+/*TESTI PRINCIPALI EVIDENZIATI*/
+h2 {
+    font-size: 50px;
     color: #0025FF;
     text-align: center;
     justify-content: center;
+    font-weight: 500;
 }
 
-h6 {
+/*BOTTONI / NOMI CHI SIAMO / ASSECONDA / CONTRASTA*/
+h3 {
     font-size: 25px;
     color: #0025FF;
-    font-weight: 500;
+    text-align: center;
     justify-content: center;
+    font-weight: 400;
 }
 
-p {
+/*BOTTONE TEST*/
+h4 {
+    font-size: 40px;
+    color: #0025FF;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+/*SODDISFATT / RISULTATI CONSIGLI*/
+h5 {
     font-size: 30px;
-    color: #0025FF
-  }
+    color: #0025FF;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+}
 
 /*Links*/
 a:link {
@@ -259,16 +265,18 @@ main#chi_siamo{
 }
 
 .person {
-    margin: 40px 40px;
+    margin: 20px 57px 20px 57px;
     display: inline-block;
 }
 
 #progetto {
     margin-top: 2px;
+    width: 1302px;
+    height: 385px;
 }
 
 @media screen and (max-width: 768px) {
-    #progetto>p {width: 80%;}
+    #progetto>p {width: 100%;}
 }
 
 
