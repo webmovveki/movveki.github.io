@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,20 +27,36 @@
     </div>
   </nav>
 
+      <main id="scegli_colore">
         <div>
             <p id='test header' style='display: block;'>
           scegli un colore
             </p>
         </div>
-
-        <div>
-        <object id="color-img"> <a href="./nome.html"> <img src="Immagini/pallino_arancione.png" height="158px" width="158px"> </a></object>
-        <object id="color-img"> <a href="./nome.html"> <img src="Immagini/pallino_rosa.png" height="158px" width="158px"> </a></object>
-        <object id="color-img"> <a href="./nome.html"> <img src="Immagini/pallino_lilla.png" height="158px" width="158px"> </a></object>
-        <object id="color-img"> <a href="./nome.html"> <img src="Immagini/pallino_celeste.png" height="158px" width="158px"> </a></object>
-        <object id="color-img"> <a href="./nome.html"> <img src="Immagini/pallino_verde.png" height="158px" width="158px"> </a></object>
-        </div>
         
+        <section id="scegli_colore">
+        <div class="colore">
+          <img src="Immagini/pallino_arancione.png" height="158px" width="158px" onclick="reindirizzamento(1)">
+        </div>
+
+        <div class="colore">
+          <img src="Immagini/pallino_rosa.png" height="158px" width="158px" onclick="reindirizzamento(2)">
+        </div>
+
+        <div class="colore">
+          <img src="Immagini/pallino_lilla.png" height="158px" width="158px" onclick="reindirizzamento(3)">
+        </div>
+
+        <div class="colore">
+          <img src="Immagini/pallino_celeste.png" height="158px" width="158px" onclick="reindirizzamento(4)">
+        </div>
+
+        <div class="colore">
+          <img src="Immagini/pallino_verde.png" height="158px" width="158px" onclick="reindirizzamento(5)">
+        </div>
+      </section>
+      </main>  
     </body>
+    <script src="./script.js"></script>
     </html>
 
