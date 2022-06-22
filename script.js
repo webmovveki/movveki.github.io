@@ -80,3 +80,12 @@ function background_celeste (){
 function background_verde (){
     document.body.style.background = verde;
 }
+
+var nome;
+
+
+function setNome(form){
+    nome=form.inputbox.value;
+    sessionStorage.setItem("utente", nome);
+    location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/telecamera.html")
+}
