@@ -40,29 +40,30 @@ function reindirizzamento(choose)
 function cambia(){
     scelta=sessionStorage.getItem("colore");
     switch(scelta){
-        case 1:
+        case "1":
             background_giallo();
         break;
 
-        case 2:
+        case "2":
             background_rosa();
         break;
 
-        case 3:
+        case "3":
             background_lilla();
         break;
 
-        case 4:
+        case "4":
             background_celeste();
         break;
 
-        case 5:
+        case "5":
             background_verde();
         break;
     }
 }
 
 function background_giallo (){
+    console.log("mi hanno chiamato",giallo)
     document.body.style.background = giallo;
 }
 
