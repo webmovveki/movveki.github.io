@@ -29,9 +29,8 @@
     
     <main id="emozione">
     <div>
-      <p id='test header' style='display: block;'>
-      Giacomo, secondo Movi il tuo stato d'animo è:<br>
-      <b>FELICE</b>!<br><br></p>
+      <p style='display: block;' id="nome"></p>
+      <p><b>FELICE</b>!<br><br></p>
       <h5>Sei soddisfatt*?</h5>
     </div>
 
@@ -47,4 +46,7 @@
     </div>
   </main>
   </body>
+  <script>
+    document.getElementById("nome").innerHTML=sessionStorage.getItem("utente")+", secondo Movi il tuo stato d'animo è:";
+  </script>
 </html>
