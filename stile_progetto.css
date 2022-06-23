@@ -457,7 +457,7 @@ main#risultati{
 #refresh {
     width: 1920px;
     height: 62px;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 0px;
     align-items: right;
     flex-direction: column;
     text-align: right;
