@@ -49,3 +49,26 @@ var cibo = Math.floor(Math.random() * 3);
 var libri = Math.floor(Math.random() * 3);
 var musica = Math.floor(Math.random() * 3);
 var serietv = Math.floor(Math.random() * 3);
+
+switch(emozione) {
+    case 'a':
+    break;
+
+    case 'd' :
+    break;
+
+    case 'f' :
+    break;
+
+    case 'h' :
+    break;
+
+    case 'n' :
+    break;
+
+    case 's' :
+    break;
+
+    case 'S' :
+    break;
+}
