@@ -4,40 +4,41 @@ const lilla= "#9FB9F4";
 const celeste= "#94F1FD";
 const verde= "#A7D9A7";
 
-var scelta=0; 
-var choose;
+var scelta; 
 function reindirizzamento(choose)
 {
+    
     switch(choose){
         case 1:
             scelta=1;
-            location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+            sessionStorage.setItem("colore", scelta);    
         break;
 
         case 2:
             scelta=2;
-            location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+            sessionStorage.setItem("colore", scelta);
         break;
 
         case 3:
             scelta=3;
-            location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+            sessionStorage.setItem("colore", scelta);
         break;
 
         case 4: 
             scelta=4;
-            location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+            sessionStorage.setItem("colore", scelta);
         break;
 
         case 5:
             scelta=5;
-            location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+            sessionStorage.setItem("colore", scelta);
         break;
     }
+    location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
 }
 
 function cambia(){
-    console.log(scelta);
+    scelta=sessionStorage.getItem("colore");
     switch(scelta){
         case 1:
             background_giallo();
