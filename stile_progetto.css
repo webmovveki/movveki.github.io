@@ -134,7 +134,6 @@ nav#main-nav {
     z-index: 5;
     justify-content: space-between;
     align-content: center;
-    display: flex;
     align-items: center;
 }
 
@@ -188,7 +187,8 @@ button {
     font-weight: 500;
     width: 158px;
     height: 51px;
-    background-color: #98ff98
+    background-color: #98ff98;
+    margin: 10px 70px 10px 70px;
 }
 
 .button-nav:hover {
@@ -408,15 +408,11 @@ main#range {
     
 }
 
-
 .contrasta {
     margin: 20px 0px 20px 0px;
     height: 100px;
     width: 200px;
 }
-
-
-
 
 input[type="range"] { 
     -webkit-appearance: none;
@@ -434,7 +430,35 @@ input[type="range"]::-webkit-slider-thumb {
 } 
 
 /*Pagina risultati*/
+main#risultati{
+    margin-top: 70px;
+    padding: 80px 1%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#risultati {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
 .immagini-risultati {
-    margin: 50px 50px;
+    margin: 20px 57px 20px 57px;
     display: inline-block;
+}
+
+#refresh {
+    width: 1920px;
+    height: 62px;
+    margin: 0px 10px 10px 10px;
+    align-items: right;
+    flex-direction: column;
+    text-align: right;
 }
