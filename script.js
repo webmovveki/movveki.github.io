@@ -84,8 +84,7 @@ function background_verde (){
 var nome;
 
 
-function setNome(form){
-    nome=form.inputbox.value;
+function setNome(){
+    nome=document.nickname.usern.value;
     sessionStorage.setItem("utente", nome);
-    location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/telecamera.html")
 }
