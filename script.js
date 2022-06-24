@@ -34,7 +34,7 @@ function reindirizzamento(choose)
             sessionStorage.setItem("colore", scelta);
         break;
     }
-    location.replace("file:///Users/chiarafranco/Desktop/Accademia/Web%20Design%202/movveki.github.io/nome.html");
+    location.replace("https://webmovveki.github.io/movveki.github.io/nome.html");
 }
 
 function cambia(){
