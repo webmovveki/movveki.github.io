@@ -29,7 +29,7 @@
 
   <main id="range">
   <div>
-    <img src="Immagini/asseconda.jpg" height="498" width="670">
+    <img id="emozioneimg" src="Immagini/asseconda.png" height="422" width="422">
   </div>
 
   <div id="soluzione">
@@ -44,16 +44,20 @@
   
 
   <div class="range">
-    <input type="range" min="0" max="6" value="0">
+    <input type="range" min="0" max="6" id="rangeslider" onchange="slideremozione()" value="0">
   </div>
 
 
   <div>
     <button class="button-test">
       <a href="./risultati_paura.html">
-      <h4>Avanti</h4></a>
+      <h3>Avanti</h3></a>
     </button>
   </div>
 </main>
 </body>
+<script src="./script.js"></script>
+    <script>
+      cambia();
+    </script>
 </html>

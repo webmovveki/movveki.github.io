@@ -90,3 +90,19 @@ function setNome(){
     nome=document.nickname.usern.value;
     sessionStorage.setItem("utente", nome);
 }
+
+
+
+function slideremozione(){
+    if(document.querySelector('#rangeslider').value <=3){
+        var img = document.getElementById("emozioneimg");
+        img.src = "Immagini/asseconda.png";
+        document.getElementById("emozioneimg").innerHTML=img;
+
+    } else {
+        var img = document.getElementById("emozioneimg");
+        img.src = "Immagini/contrasta.png";
+        document.getElementById("emozioneimg").innerHTML=img;
+    }
+
+}

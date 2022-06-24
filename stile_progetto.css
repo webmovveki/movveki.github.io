@@ -19,7 +19,7 @@ body {
     background: linear-gradient(-45deg, #7fffd4, #00bfff, #7b68ee, #ffa500);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 100vh;
+    height: 50vh;
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
     color: #0025FF;
@@ -36,17 +36,6 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
-
-main {
-    margin-top: 119px;
-    padding: 70px 10%;
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .full-height{
@@ -220,7 +209,7 @@ text-decoration: none;
 /*Home*/
 main#home {
     margin-top: 270px;
-    padding: 80px 1%;
+    padding: 50px 1%;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
@@ -392,7 +381,7 @@ div.nowrap { white-space: nowrap }
 
 /*Pagina Range emozioni*/
 main#range {
-    margin-top: 250px;
+    margin-top: 50px;
     padding: 80px 1%;
     max-width: 1920px;
     margin-left: auto;
@@ -404,14 +393,13 @@ main#range {
 }
 
 .asseconda {
-    margin: 20px 0px 20px 00px;
+    margin-top: 20px;
     height: 100px;
-    width: 200px;
-    
+    width: 200px; 
 }
 
 .contrasta {
-    margin: 20px 0px 20px 0px;
+    margin-top: 20px;
     height: 100px;
     width: 200px;
 }
@@ -431,6 +419,14 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
 } 
 
+#soluzione {
+    display: flex;
+    width: 860px;
+    height: 100px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
 /*Pagina risultati*/
 main#risultati{
     margin-top: 70px;
@@ -443,14 +439,6 @@ main#risultati{
     flex-direction: column;
     text-align: center;
 }
-
-#soluzione {
-    display: flex;
-    width: 740px;
-    justify-content: space-between;
-}
-
-
 
 #risultati {
     display: flex;
@@ -472,3 +460,16 @@ main#risultati{
     flex-direction: column;
     text-align: right;
 }
+
+/*Pagina Splash*/
+main#splash {
+    margin-top: 119px;
+    padding: 70px 10%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
