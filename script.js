@@ -34,7 +34,7 @@ function reindirizzamento(choose)
             sessionStorage.setItem("colore", scelta);
         break;
     }
-    location.replace("https://webmovveki.github.io/movveki.github.io/nome.html");
+    location.replace("nome.html");
 }
 
 function cambia(){

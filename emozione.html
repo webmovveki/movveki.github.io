@@ -30,7 +30,7 @@
     <main id="emozione">
     <div>
       <p style='display: block;' id="nome"></p>
-      <p><b>FELICE</b>!<br><br></p>
+      <p><b id="emozioneContainer">  </b>!<br><br></p>
       <h5>Sei soddisfatt*?</h5>
     </div>
 
@@ -47,6 +47,9 @@
   </main>
   </body>
   <script>
+    const q = window.location.search;
+    const params = new URLSearchParams(q);
+    document.getElementById("emozioneContainer").innerText = params.get("e");
     document.getElementById("nome").innerHTML=sessionStorage.getItem("utente")+", secondo Movi il tuo stato d'animo è:";
   </script>
   <script src="./script.js"></script>
