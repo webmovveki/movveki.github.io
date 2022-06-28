@@ -50,6 +50,7 @@
     const q = window.location.search;
     const params = new URLSearchParams(q);
     document.getElementById("emozioneContainer").innerText = params.get("e");
+    sessionStorage.setItem("emozione", params.get("e"));
     document.getElementById("nome").innerHTML=sessionStorage.getItem("utente")+", secondo Movi il tuo stato d'animo è:";
   </script>
   <script src="./script.js"></script>

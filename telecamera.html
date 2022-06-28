@@ -33,15 +33,15 @@
 
     <canvas id="output"></canvas>
   
-    <h1 id="status">Loading...</h1>
+    <h1 id="status"></h1>
 
     <div>
       <p id="test-header" style='display: block;'>
       Posizionati al centro! </p>
     </div>
 
-    <div class="img-telecamera">
-    <img src="Immagini/Icona_omino.jpg" height="498" width="670">
+    <div id="telecameraImg" class="img-telecamera">
+    <img id="immagine" src="Immagini/Icona_omino.jpg" height="498" width="670">
     </div>
 
     <div>
@@ -186,6 +186,7 @@
     
     (async () => {
             await setupWebcam();
+            document.getElementById("telecameraImg").parentNode.removeChild(document.getElementById("telecameraImg"));
             const video = document.getElementById( "webcam" );
             video.play();
             let videoWidth = video.videoWidth;
@@ -210,8 +211,6 @@
             );
             // Load Emotion Detection
             emotionModel = await tf.loadLayersModel( 'web/model/facemo.json' );
-
-            setText( "Loaded!" );
 
             trackFace();
             

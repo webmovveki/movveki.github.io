@@ -50,6 +50,10 @@ var libri = Math.floor(Math.random() * 3);
 var musica = Math.floor(Math.random() * 3);
 var serietv = Math.floor(Math.random() * 3);
 
+var emozione = sessionStorage.getItem("emozione");
+var emozione= emozione[0]
+
+
 switch(emozione) {
     case 'a':
     break;

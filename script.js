@@ -106,3 +106,54 @@ function slideremozione(){
     }
 
 }
+
+function assecondaContrasta () {
+    if(sessionStorage.getItem("emozione")== "arrabbiato" && document.querySelector('#rangeslider').value <=3)
+    {
+
+    } else {
+        sessionStorage.setItem("emozione", "disgustato");   
+    }
+
+    if(sessionStorage.getItem("emozione")== "disgustato" && document.querySelector('#rangeslider').value <=3)
+    {
+     
+    } else {
+        sessionStorage.setItem("emozione", "sorpreso"); 
+    }
+
+    if(sessionStorage.getItem("emozione")== "impaurito" && document.querySelector('#rangeslider').value <=3)
+    {
+
+    } else {
+        sessionStorage.setItem("emozione", "neutrale"); 
+    }
+
+    if(sessionStorage.getItem("emozione")== "felice" && document.querySelector('#rangeslider').value <=3)
+    {
+        
+    } else {
+        sessionStorage.setItem("emozione", "triste"); 
+    }
+
+    if(sessionStorage.getItem("emozione")== "neutrale" && document.querySelector('#rangeslider').value <=3)
+    {
+
+    } else {
+        sessionStorage.setItem("emozione", "arrabbiato"); 
+    }
+
+    if(sessionStorage.getItem("emozione")== "triste" && document.querySelector('#rangeslider').value <=3)
+    {
+
+    } else {
+        sessionStorage.setItem("emozione", "felice"); 
+    }
+
+    if(sessionStorage.getItem("emozione")== "sorpreso" && document.querySelector('#rangeslider').value <=3)
+    {
+
+    } else {
+        sessionStorage.setItem("emozione", "impaurito"); 
+    }
+}
