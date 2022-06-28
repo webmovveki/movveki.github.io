@@ -46,8 +46,6 @@ var ssurprise = ["Locke e Key","Penny dreadful","Shadowhunters"];
 
 
 
-
-
 /*
 var img = document.getElementById("emozioneimg");
         img.src = "Immagini/asseconda.png";
@@ -93,13 +91,13 @@ var imgmsad = ["./Immagini/Sad/musica/ic3 peak.png","./Immagini/Neutral/musica/j
 var imgmsurprise = ["./Immagini/Surprise/musica/falls of glory.png","./Immagini/Surprise/musica/ivan torrent.png","./Immagini/Surprise/musica/sham stalin.png"];
 
 //serie tv
-var imgsangry = ["./Immagini/Angry/serie/hannibal.png","./Immagini/Angry/serie/ratched.png","./Immagini/Angry/serie/you.png"];
-var imgsdisgust = ["./Immagini/Disgust/serie/gli ultimi zar.png","./Immagini/Disgust/serie/i medici.png","./Immagini/Disgust/serie/versailles.png"];
-var imgsfear = ["./Immagini/Fear/serie/ahs.png","./Immagini/Fear/serie/hill house.png","./Immagini/Fear/serie/marianne.png"];
-var imgshappy = ["./Immagini/Happy/serie/big bang theory.png","./Immagini/Happy/serie/friends.png","./Immagini/Happy/serie/two broke girls.png"];
-var imgsneutral = ["./Immagini/Neutral/serie/bridgerton.png","./Immagini/Neutral/serie/le fate ignoranti.png","./Immagini/Neutral/serie/nana.png"];
-var imgssad = ["./Immagini/Sad/serie/13.png","./Immagini/Sad/serie/squid game.png","./Immagini/Sad/serie/the end of the fucking world.png"];
-var imgssurprise = ["./Immagini/Surprise/serie/locke e key.png","./Immagini/Surprise/serie/penny dreadful.png","./Immagini/Surprise/serie/shadowhunters.png"];
+var imgsangry = ["./Immagini/Angry/serie tv/hannibal.png","./Immagini/Angry/serie tv/ratched.png","./Immagini/Angry/serie tv/you.png"];
+var imgsdisgust = ["./Immagini/Disgust/serie tv/gli ultimi zar.png","./Immagini/Disgust/serie tv/i medici.png","./Immagini/Disgust/serie tv/versailles.png"];
+var imgsfear = ["./Immagini/Fear/serie tv/ahs.png","./Immagini/Fear/serie tv/hill house.png","./Immagini/Fear/serie tv/marianne.png"];
+var imgshappy = ["./Immagini/Happy/serie tv/big bang theory.png","./Immagini/Happy/serie tv/friends.png","./Immagini/Happy/serie tv/two broke girls.png"];
+var imgsneutral = ["./Immagini/Neutral/serie tv/bridgerton.png","./Immagini/Neutral/serie tv/le fate ignoranti.png","./Immagini/Neutral/serie tv/nana.png"];
+var imgssad = ["./Immagini/Sad/serie tv/13.png","./Immagini/Sad/serie tv/squid game.png","./Immagini/Sad/serie tv/the end of the fucking world.png"];
+var imgssurprise = ["./Immagini/Surprise/serie tv/locke e key.png","./Immagini/Surprise/serie tv/penny dreadful.png","./Immagini/Surprise/serie tv/shadowhunters.png"];
 
 
 
@@ -109,7 +107,7 @@ var film = Math.floor(Math.random() * 3);
 var cibo = Math.floor(Math.random() * 3);
 var libri = Math.floor(Math.random() * 3);
 var musica = Math.floor(Math.random() * 3);
-var serietv = Math.floor(Math.random() * 3);
+var serie = Math.floor(Math.random() * 3);
 
 var emozione = sessionStorage.getItem("emozione");
 var emozione= emozione[0];
@@ -117,63 +115,34 @@ console.log(emozione);
 
 
 
-
-switch () {
-    case 'a':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 'd':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 'i':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 'f':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 'n':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 't':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-    case 's':
-        var img = document.getElementById("film");
-        img.src = imgffear[film];
-        document.getElementById("film").innerHTML=img;
-    break;
-
-}
-
-var img = document.getElementById("film");
-img.src = imgffear[film];
-document.getElementById("film").innerHTML=img;
-
 switch(emozione) {
-    case 'a':
+    case 'a' :
         document.getElementById("filmTxt").innerHTML= fangry[film];
         document.getElementById("ciboTxt").innerHTML= cangry[cibo];
         document.getElementById("libriTxt").innerHTML= langry[libri];
         document.getElementById("musicaTxt").innerHTML= mangry[musica];
-        document.getElementById("serieTxt").innerHTML= sangry[serietv];
+        document.getElementById("serieTxt").innerHTML= sangry[serie];
+
+        var img = document.getElementById("film");
+        img.src = imgfangry[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcangry[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglangry[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmangry[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgsangry[serie];
+        document.getElementById("serie").innerHTML=img;
+        
     break;
 
     case 'd' :
@@ -181,7 +150,27 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= cdisgust [cibo];
         document.getElementById("libriTxt").innerHTML= ldisgust[libri];
         document.getElementById("musicaTxt").innerHTML= mdisgust[musica];
-        document.getElementById("serieTxt").innerHTML= sdisgust[serietv];
+        document.getElementById("serieTxt").innerHTML= sdisgust[serie];
+
+        var img = document.getElementById("film");
+        img.src = imgfdisgust[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcdisgust[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imgldisgust[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmdisgust[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgsdisgust[serie];
+        document.getElementById("serie").innerHTML=img;
     break;
 
     case 'i' :
@@ -189,7 +178,27 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= cfear[cibo];
         document.getElementById("libriTxt").innerHTML= lfear[libri];
         document.getElementById("musicaTxt").innerHTML= mfear[musica];
-        document.getElementById("serieTxt").innerHTML= sfear[serietv];
+        document.getElementById("serieTxt").innerHTML= sfear[serie];
+
+        var img = document.getElementById("film");
+        img.src = imgffear[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcfear[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglfear[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmfear[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgsfear[serie];
+        document.getElementById("serie").innerHTML=img;
     break;
 
     case 'f' :
@@ -198,6 +207,26 @@ switch(emozione) {
         document.getElementById("libriTxt").innerHTML= lhappy[libri];
         document.getElementById("musicaTxt").innerHTML= mhappy[musica];
         document.getElementById("serieTxt").innerHTML= shappy[serietv];
+
+        var img = document.getElementById("film");
+        img.src = imgfhappy[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgchappy[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglhappy[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmhappy[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgshappy[serie];
+        document.getElementById("serie").innerHTML=img;
     break;
 
     case 'n' :
@@ -206,6 +235,26 @@ switch(emozione) {
         document.getElementById("libriTxt").innerHTML= lneutral[libri];
         document.getElementById("musicaTxt").innerHTML= mneutral[musica];
         document.getElementById("serieTxt").innerHTML= sneutral[serietv];
+
+        var img = document.getElementById("film");
+        img.src = imgfneutral[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcneutral[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglneutral[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmneutral[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgsneutral[serie];
+        document.getElementById("serie").innerHTML=img;
     break;
 
     case 't' :
@@ -214,6 +263,27 @@ switch(emozione) {
         document.getElementById("libriTxt").innerHTML= lsad[libri];
         document.getElementById("musicaTxt").innerHTML= msad[musica];
         document.getElementById("serieTxt").innerHTML= ssad[serietv];
+
+        var img = document.getElementById("film");
+        img.src = imgfsad[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcsad[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglsad[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmsad[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgssad[serie];
+        document.getElementById("serie").innerHTML=img;
+
     break;
 
     case 's' :
@@ -222,6 +292,26 @@ switch(emozione) {
         document.getElementById("libriTxt").innerHTML= lsurprise[libri];
         document.getElementById("musicaTxt").innerHTML= msurprise[musica];
         document.getElementById("serieTxt").innerHTML= ssurprise[serietv];
+
+        var img = document.getElementById("film");
+        img.src = imgfangry[film];
+        document.getElementById("film").innerHTML=img;
+
+        var img = document.getElementById("cibo");
+        img.src = imgcangry[cibo];
+        document.getElementById("cibo").innerHTML=img;
+        
+        var img = document.getElementById("libri");
+        img.src = imglangry[libri];
+        document.getElementById("libri").innerHTML=img;
+
+        var img = document.getElementById("musica");
+        img.src = imgmangry[musica];
+        document.getElementById("musica").innerHTML=img;
+
+        var img = document.getElementById("serie");
+        img.src = imgsangry[serie];
+        document.getElementById("serie").innerHTML=img;
     break;
 }
 
