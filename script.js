@@ -108,52 +108,53 @@ function slideremozione(){
 }
 
 function assecondaContrasta () {
-    if(sessionStorage.getItem("emozione")=== "arrabbiato" && document.querySelector('#rangeslider').value <=3)
-    {
+    if(sessionStorage.getItem("emozione")== "arrabbiato") {
+        if(document.querySelector('#rangeslider').value <=3) {
 
-    } else {
-        sessionStorage.setItem("emozione", "disgustato");   
+        } else {
+            sessionStorage.setItem("emozione", "disgustato");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "felice"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "triste");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "disgustato"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "sorpreso");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "impaurito"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "neutrale");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "neutrale"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "arrabbiato");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "triste"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "felice");   
+        }
+    } else if(sessionStorage.getItem("emozione")== "sorpreso"){
+        if(document.querySelector('#rangeslider').value <=3) {
+
+        } else {
+            sessionStorage.setItem("emozione", "impaurito");   
+        }
     }
+}
 
-    if(sessionStorage.getItem("emozione")=== "disgustato" && document.querySelector('#rangeslider').value <=3)
-    {
-     
-    } else {
-        sessionStorage.setItem("emozione", "sorpreso"); 
-    }
 
-    if(sessionStorage.getItem("emozione")=== "impaurito" && document.querySelector('#rangeslider').value <=3)
-    {
-
-    } else {
-        sessionStorage.setItem("emozione", "neutrale"); 
-    }
-
-    if(sessionStorage.getItem("emozione")=== "felice" && document.querySelector('#rangeslider').value <=3)
-    {
-        
-    } else {
-        sessionStorage.setItem("emozione", "triste"); 
-    }
-
-    if(sessionStorage.getItem("emozione")=== "neutrale" && document.querySelector('#rangeslider').value <=3)
-    {
-
-    } else {
-        sessionStorage.setItem("emozione", "arrabbiato"); 
-    }
-
-    if(sessionStorage.getItem("emozione")=== "triste" && document.querySelector('#rangeslider').value <=3)
-    {
-
-    } else {
-        sessionStorage.setItem("emozione", "felice"); 
-    }
-
-    if(sessionStorage.getItem("emozione")=== "sorpreso" && document.querySelector('#rangeslider').value <=3)
-    {
-
-    } else {
-        sessionStorage.setItem("emozione", "impaurito"); 
-    }
+function RefreshWindow()
+{
+         window.location.reload(true);
 }
