@@ -12,7 +12,7 @@ var cangry = ["Dark cookies","Monster Energy","Pumpkin spice latte"];
 var cdisgust = ["Birra","Club sandwich","Patatine"];
 var cfear = ["Bloody Mary","Candy corn","Pumpkin Pie"];
 var chappy = ["Cioccolata calda","Pancake","Waffle"];
-var cneutral = ["Cosmopolitan","Marshmellow",">ucchero filato"];
+var cneutral = ["Cosmopolitan","Marshmellow","Zucchero filato"];
 var csad = ["Cioccolata calda","Pancake","Waffle"];
 var csurprise = ["Gelato","Succo","Torta cioccolato"];
 
@@ -67,7 +67,7 @@ var imgfsurprise = ["./Immagini/Surprise/film/avatar.png","./Immagini/Surprise/f
 var imgcangry = ["./Immagini/Angry/cibo/dark cookies.png","./Immagini/Angry/cibo/monster energy.png","./Immagini/Angry/cibo/pumpkin spice latte.png"];
 var imgcdisgust = ["./Immagini/Disgust/cibo/birra.png","./Immagini/Disgust/cibo/club sandwich.png","./Immagini/Disgust/cibo/patatine.png"];
 var imgcfear = ["./Immagini/Fear/cibo/bloody mary.png","./Immagini/Fear/cibo/candy corn.png","./Immagini/Fear/cibo/pumpkin pie.png"];
-var imgchappy = ["./Immagini/Happy/cibo/cioccolata calda.png","./Immagini/Fear/cibo/pancake.png","./Immagini/Fear/cibo/waffle.png"];
+var imgchappy = ["./Immagini/Happy/cibo/cioccolata calda.png","./Immagini/Happy/cibo/pancake.png","./Immagini/Happy/cibo/waffle.png"];
 var imgcneutral = ["./Immagini/Neutral/cibo/cosmopolitan.png","./Immagini/Neutral/cibo/marshmellow.png","./Immagini/Neutral/cibo/zucchero filato.png"];
 var imgcsad = ["./Immagini/Sad/cibo/cioccolata calda.png","./Immagini/Sad/cibo/pancake.png","./Immagini/Sad/cibo/waffle.png"];
 var imgcsurprise = ["./Immagini/Surprise/cibo/gelato.png","./Immagini/Surprise/cibo/succo.png","./Immagini/Surprise/cibo/torta cioccolato.png"];
@@ -92,10 +92,10 @@ var imgmsurprise = ["./Immagini/Surprise/musica/falls of glory.png","./Immagini/
 
 //serie tv
 var imgsangry = ["./Immagini/Angry/serie tv/hannibal.png","./Immagini/Angry/serie tv/ratched.png","./Immagini/Angry/serie tv/you.png"];
-var imgsdisgust = ["./Immagini/Disgust/serie tv/gli ultimi zar.png","./Immagini/Disgust/serie tv/i medici.png","./Immagini/Disgust/serie tv/versailles.png"];
+var imgsdisgust = ["./Immagini/Disgust/serie/gli ultimi zar.png","./Immagini/Disgust/serie/i medici.png","./Immagini/Disgust/serie/versailles.png"];
 var imgsfear = ["./Immagini/Fear/serie tv/ahs.png","./Immagini/Fear/serie tv/hill house.png","./Immagini/Fear/serie tv/marianne.png"];
-var imgshappy = ["./Immagini/Happy/serie tv/big bang theory.png","./Immagini/Happy/serie tv/friends.png","./Immagini/Happy/serie tv/two broke girls.png"];
-var imgsneutral = ["./Immagini/Neutral/serie tv/bridgerton.png","./Immagini/Neutral/serie tv/le fate ignoranti.png","./Immagini/Neutral/serie tv/nana.png"];
+var imgshappy = ["./Immagini/Happy/serie/big bang theory.png","./Immagini/Happy/serie/friends.png","./Immagini/Happy/serie/two broke girls.png"];
+var imgsneutral = ["./Immagini/Neutral/serie/bridgerton.png","./Immagini/Neutral/serie/le fate ignoranti.png","./Immagini/Neutral/serie/nana.png"];
 var imgssad = ["./Immagini/Sad/serie tv/13.png","./Immagini/Sad/serie tv/squid game.png","./Immagini/Sad/serie tv/the end of the fucking world.png"];
 var imgssurprise = ["./Immagini/Surprise/serie tv/locke e key.png","./Immagini/Surprise/serie tv/penny dreadful.png","./Immagini/Surprise/serie tv/shadowhunters.png"];
 
@@ -112,7 +112,6 @@ var serie = Math.floor(Math.random() * 3);
 var emozione = sessionStorage.getItem("emozione");
 var emozione= emozione[0];
 console.log(emozione);
-
 
 
 switch(emozione) {
@@ -206,7 +205,7 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= chappy[cibo];
         document.getElementById("libriTxt").innerHTML= lhappy[libri];
         document.getElementById("musicaTxt").innerHTML= mhappy[musica];
-        document.getElementById("serieTxt").innerHTML= shappy[serietv];
+        document.getElementById("serieTxt").innerHTML= shappy[serie];
 
         var img = document.getElementById("film");
         img.src = imgfhappy[film];
@@ -234,7 +233,7 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= cneutral[cibo];
         document.getElementById("libriTxt").innerHTML= lneutral[libri];
         document.getElementById("musicaTxt").innerHTML= mneutral[musica];
-        document.getElementById("serieTxt").innerHTML= sneutral[serietv];
+        document.getElementById("serieTxt").innerHTML= sneutral[serie];
 
         var img = document.getElementById("film");
         img.src = imgfneutral[film];
@@ -262,7 +261,7 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= csad[cibo];
         document.getElementById("libriTxt").innerHTML= lsad[libri];
         document.getElementById("musicaTxt").innerHTML= msad[musica];
-        document.getElementById("serieTxt").innerHTML= ssad[serietv];
+        document.getElementById("serieTxt").innerHTML= ssad[serie];
 
         var img = document.getElementById("film");
         img.src = imgfsad[film];
@@ -291,7 +290,7 @@ switch(emozione) {
         document.getElementById("ciboTxt").innerHTML= csurprise[cibo];
         document.getElementById("libriTxt").innerHTML= lsurprise[libri];
         document.getElementById("musicaTxt").innerHTML= msurprise[musica];
-        document.getElementById("serieTxt").innerHTML= ssurprise[serietv];
+        document.getElementById("serieTxt").innerHTML= ssurprise[serie];
 
         var img = document.getElementById("film");
         img.src = imgfangry[film];
@@ -315,3 +314,29 @@ switch(emozione) {
     break;
 }
 
+function filmredirect ()
+{
+    //Film Happy//
+    if(document.getElementById ("filmTxt").innerText== "Festa col morto"){
+        location.replace("https://www.primevideo.com/region/eu/detail/0IV9FX6E1IGWQXPVZDBVS45TCT/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07TFNK8RB&qid=1656429858");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Attenti a quelle due"){
+        location.replace("https://www.netflix.com/search?q=festa%20col%20morto&jbv=81209142");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Non è romantico"){
+        location.replace("https://www.netflix.com/search?q=non%20%C3%A8%20romantico&jbv=80200642");
+    }
+}
+
+
+
+
+/*var fangry = ["Birdbox","Nightmare Alley","The Neon Demon"];
+var fdisgust = ["Il Gladiatore","Les Miserables","Marie Antoinette"];
+var ffear = ["It","La Madre","Lights Out"];
+
+var fneutral = ["10 cose che odio di te","Call me by your name","Lei"];
+var fsad = ["Giovani ribelli","Ragazze interrotte","Velvet buzzsaw"];
+var fsurprise = ["Avatar","Harry Potter","The Hobbit"];*/
