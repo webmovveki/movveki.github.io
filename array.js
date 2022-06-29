@@ -328,12 +328,25 @@ function filmredirect ()
     if(document.getElementById ("filmTxt").innerText== "Non è romantico"){
         location.replace("https://www.netflix.com/search?q=non%20%C3%A8%20romantico&jbv=80200642");
     }
+
+    //Film Angry//
+    if(document.getElementById ("filmTxt").innerText== "Birdbox"){
+        location.replace("https://www.netflix.com/it/title/80196789?source=35");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Nightmare Alley"){
+        location.replace("https://www.disneyplus.com/it-it/movies/la-fiera-delle-illusioni-nightmare-alley/4W2fyAIKkAwE");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "The Neon Demon"){
+        location.replace("https://tv.apple.com/it/movie/the-neon-demon/umc.cmc.34y94wuttq9lyfdlgz6xgzq4q");
+    }
+
+
 }
 
 
-
-
-/*var fangry = ["Birdbox","Nightmare Alley","The Neon Demon"];
+/*
 var fdisgust = ["Il Gladiatore","Les Miserables","Marie Antoinette"];
 var ffear = ["It","La Madre","Lights Out"];
 
