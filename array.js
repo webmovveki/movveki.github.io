@@ -460,7 +460,7 @@ function serieredirect ()
     }
 
     if(document.getElementById ("filmTxt").innerText== "Two broke girls"){
-        location.replace("https://eurostreaming.network/tv/2-broke-girls/");
+        location.replace("https://www.primevideo.com/detail/0RICM4CPJ1SWXDS986RR14GK6K/ref=atv_dp_season_select_s1?language=it_IT");
     }
 
     //Serie Neutral//
