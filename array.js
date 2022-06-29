@@ -316,19 +316,6 @@ switch(emozione) {
 
 function filmredirect ()
 {
-    //Film Happy//
-    if(document.getElementById ("filmTxt").innerText== "Festa col morto"){
-        location.replace("https://www.primevideo.com/region/eu/detail/0IV9FX6E1IGWQXPVZDBVS45TCT/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07TFNK8RB&qid=1656429858");
-    }
-
-    if(document.getElementById ("filmTxt").innerText== "Attenti a quelle due"){
-        location.replace("https://www.netflix.com/search?q=festa%20col%20morto&jbv=81209142");
-    }
-
-    if(document.getElementById ("filmTxt").innerText== "Non è romantico"){
-        location.replace("https://www.netflix.com/search?q=non%20%C3%A8%20romantico&jbv=80200642");
-    }
-
     //Film Angry//
     if(document.getElementById ("filmTxt").innerText== "Birdbox"){
         location.replace("https://www.netflix.com/it/title/80196789?source=35");
@@ -342,14 +329,297 @@ function filmredirect ()
         location.replace("https://tv.apple.com/it/movie/the-neon-demon/umc.cmc.34y94wuttq9lyfdlgz6xgzq4q");
     }
 
+    //Film Disgust//
+    if(document.getElementById ("filmTxt").innerText== "Il Gladiatore"){
+        location.replace("https://www.netflix.com/it/title/60000929?source=35");
+    }
 
+    if(document.getElementById ("filmTxt").innerText== "Les Miserables"){
+        location.replace("https://www.primevideo.com/region/eu/detail/0GM6XXIOGZB5RCGS3YWU4VNCR8/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B01M9IFPVI&qid=1656429782");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Marie Antoinette"){
+        location.replace("https://www.netflix.com/watch/70044601?source=35");
+    }
+
+    //Film Fear//
+    if(document.getElementById ("filmTxt").innerText== "It"){
+        location.replace("https://www.netflix.com/watch/80177770?source=35");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "La Madre"){
+        location.replace("https://tv.apple.com/it/movie/la-madre/umc.cmc.6yjyyvwv339eqnsgigz40g63j");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Lights Out"){
+        location.replace("https://www.primevideo.com/dp/amzn1.dv.gti.5cb92682-901b-3fa1-dd7a-6278d8a9fe9f?autoplay=0&ref_=atv_cf_strg_wb");
+    }
+
+    //Film Happy//
+    if(document.getElementById ("filmTxt").innerText== "Festa col morto"){
+        location.replace("https://www.primevideo.com/region/eu/detail/0IV9FX6E1IGWQXPVZDBVS45TCT/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07TFNK8RB&qid=1656429858");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Attenti a quelle due"){
+        location.replace("https://www.netflix.com/search?q=festa%20col%20morto&jbv=81209142");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Non è romantico"){
+        location.replace("https://www.netflix.com/search?q=non%20%C3%A8%20romantico&jbv=80200642");
+    }
+
+    //Film Neutral//
+    if(document.getElementById ("filmTxt").innerText== "10 cose che odio di te"){
+        location.replace("https://www.disneyplus.com/it-it/movies/10-cose-che-odio-di-te/10OzquDiTIJB");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Call me by your name"){
+        location.replace("https://www.netflix.com/watch/80169498?source=35");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Lei"){
+        location.replace("https://www.netflix.com/title/70278933");
+    }
+
+    //Film Sad//
+    if(document.getElementById ("filmTxt").innerText== "Giovani ribelli"){
+        location.replace("https://tv.apple.com/it/movie/giovani-ribelli-kill-your-darlings/umc.cmc.1bv32ulampp07s7i3p3h4faga?action=play");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ragazze interrotte"){
+        location.replace("https://www.netflix.com/title/60000428");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Velvet buzzsaw"){
+        location.replace("https://www.netflix.com/title/80199689");
+    }
+
+    //Film Surprise//
+     if(document.getElementById ("filmTxt").innerText== "Avatar"){
+        location.replace("https://www.disneyplus.com/it-it/movies/avatar/2YOnkRN4LwZZ");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Harry Potter"){
+        location.replace("https://www.primevideo.com/dp/amzn1.dv.gti.50b4e520-051d-31a7-c3a2-d79e0b270adb?autoplay=0&ref_=atv_cf_strg_wb");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "The Hobbit"){
+        location.replace("https://www.netflix.com/watch/70226288?source=35");
+    }
+
+
+    
+    //Serie Angry//
+    if(document.getElementById ("filmTxt").innerText== "Hannibal"){
+        location.replace("https://www.primevideo.com/dp/amzn1.dv.gti.226f86db-cdf0-42af-9e72-934fc98fc2a0?autoplay=0&ref_=atv_cf_strg_wb");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ratched"){
+        location.replace("https://www.netflix.com/watch/80213445?source=35");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "You"){
+        location.replace("https://www.netflix.com/title/80211991");
+    }
+
+    //Serie Disgust//
+    if(document.getElementById ("filmTxt").innerText== "Gli ultimi Zar"){
+        location.replace("https://www.netflix.com/title/80211648");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "I Medici"){
+        location.replace("https://www.primevideo.com/dp/amzn1.dv.gti.30b75b73-0ebb-14eb-9cfa-8cb5ba30c45c?autoplay=0&ref_=atv_cf_strg_wbs");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Versailles"){
+        location.replace("https://www.netflix.com/title/80099753");
+    }
+
+    //Serie Fear//
+    if(document.getElementById ("filmTxt").innerText== "American Horror Story"){
+        location.replace("https://www.disneyplus.com/it-it/series/american-horror-story/4yFvVceupA9J");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Hill House"){
+        location.replace("https://www.netflix.com/title/80189221");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Marianne"){
+        location.replace("https://www.netflix.com/title/80217779");
+    }
+
+    //Serie Happy//
+    if(document.getElementById ("filmTxt").innerText== "Big Bang Theory"){
+        location.replace("https://www.netflix.com/title/70143830");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Friends"){
+        location.replace("https://www.netflix.com/title/70153404");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Two broke girls"){
+        location.replace("https://eurostreaming.network/tv/2-broke-girls/");
+    }
+
+    //Serie Neutral//
+    if(document.getElementById ("filmTxt").innerText== "Bridgerton"){
+        location.replace("https://www.netflix.com/watch/80232398?source=35");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Le fate ignoranti"){
+        location.replace("https://www.disneyplus.com/it-it/series/le-fate-ignoranti/6GEpSRhsYnYv");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Nana"){
+        location.replace("https://www.netflix.com/title/70205010");
+    }
+
+    //Serie Sad//
+    if(document.getElementById ("filmTxt").innerText== "13"){
+        location.replace("https://www.netflix.com/title/801174705");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Squid Game"){
+        location.replace("https://www.netflix.com/title/81040344");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "The end of the fucking world"){
+        location.replace("https://www.netflix.com/search?q=the%20end%20of%20the%20fucking&jbv=80175722");
+    }
+
+    //Serie Surprise//
+    if(document.getElementById ("filmTxt").innerText== "Locke e Key"){
+        location.replace("https://www.netflix.com/title/80241239");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Penny dreadful"){
+        location.replace("https://www.nowtv.it/watch/home/asset/penny-dreadful/skyatlantic_fb6e7903d70141abb860f20606f38579");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Shadowhunters"){
+        location.replace("https://www.netflix.com/title/80084447");
+    }
+
+
+
+    //Musica Angry//
+    if(document.getElementById ("filmTxt").innerText== "Derek f"){
+        location.replace("https://open.spotify.com/artist/1XPa3yIPMAIYeE8AXvXgtH");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "ic3 peak"){
+        location.replace("https://open.spotify.com/artist/3luonLzvSOxdU8ytCaEIK8");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Jozef van Wissem"){
+        location.replace("https://open.spotify.com/artist/1mC0FqPLboQUFfxYuthfdn");
+    }
+
+    //Musica Disgust//
+    if(document.getElementById ("filmTxt").innerText== "Falls of glory"){
+        location.replace("https://open.spotify.com/artist/2uoaGj3psjlDwIQBpAeXNI");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ivan Torrent"){
+        location.replace("https://open.spotify.com/artist/3C6hf9ZIza3e2f2Q3XwfcO");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Peter Grundy"){
+        location.replace("https://open.spotify.com/playlist/1aIWTDJ3eudkhtYQouBVJ9");
+    }
+
+    //Musica Fear//
+    if(document.getElementById ("filmTxt").innerText== "Marilyn Manson"){
+        location.replace("https://open.spotify.com/artist/2VYQTNDsvvKN9wmU5W7xpj");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Peter Grundy"){
+        location.replace("https://open.spotify.com/playlist/1aIWTDJ3eudkhtYQouBVJ9");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Rob Zombie"){
+        location.replace("https://open.spotify.com/artist/3HVdAiMNjYrQIKlOGxoGh5");
+    }
+
+    //Musica Happy//
+    if(document.getElementById ("filmTxt").innerText== "Caleb Hyles"){
+        location.replace("https://open.spotify.com/artist/6jDwZUFYUH1dC4xWzOd8QU");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ed Sheeran"){
+        location.replace("https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Michael Bublè"){
+        location.replace("https://open.spotify.com/album/2A9zV4HP5lrNP9b2PdpaG2");
+    }
+
+    //Musica Neutral//
+    if(document.getElementById ("filmTxt").innerText== "Ultimo"){
+        location.replace("https://open.spotify.com/artist/3hN3iJMbbBmqBSAMx5veDa");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ed Sheeran"){
+        location.replace("https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Michael Bublè"){
+        location.replace("https://open.spotify.com/album/2A9zV4HP5lrNP9b2PdpaG2");
+    }
+
+    //Musica Sad//
+    if(document.getElementById ("filmTxt").innerText== "ic3 peak"){
+        location.replace("https://open.spotify.com/artist/3luonLzvSOxdU8ytCaEIK8");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Jozef van Wissem"){
+        location.replace("https://open.spotify.com/artist/1mC0FqPLboQUFfxYuthfdn");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Peter Grundy"){
+        location.replace("https://open.spotify.com/playlist/1aIWTDJ3eudkhtYQouBVJ9");
+    }
+
+    //Musica Surprise//
+    if(document.getElementById ("filmTxt").innerText== "Falls of glory"){
+        location.replace("https://open.spotify.com/artist/2uoaGj3psjlDwIQBpAeXNI");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Ivan Torrent"){
+        location.replace("https://open.spotify.com/artist/3C6hf9ZIza3e2f2Q3XwfcO");
+    }
+
+    if(document.getElementById ("filmTxt").innerText== "Sham Stalin"){
+        location.replace("https://open.spotify.com/artist/5eMSbMxRj2iFooDP4b6XEC");
+    }
+
+
+    //Libri Neutral//
+    if(document.getElementById ("libriTxt").innerText== "Anna Karenina"){
+        location.replace("https://www.lafeltrinelli.it/anna-karenina-libro-lev-tolstoj/e/9788807900006");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Cime tempestose"){
+        location.replace("https://www.lafeltrinelli.it/cime-tempestose-libro-emily-bronte/e/9788807900129?queryId=82fdb5efc1244f5ed7805d4181ea50d1%22");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Orgoglio e pregiudizio"){
+        location.replace("https://www.lafeltrinelli.it/orgoglio-pregiudizio-libro-jane-austen/e/9788807900846?queryId=e2e46a0509b1137c8c0bbd9b3c62095f");
+    }
+
+
+    //Libri Angry//
+    if(document.getElementById ("libriTxt").innerText== "La psichiatra"){
+        location.replace("https://www.lafeltrinelli.it/psichiatra-libro-wulf-dorn/e/9788850226719?queryId=2dee048595c2f59b7680d188c458941c");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Mindhunter"){
+        location.replace("https://www.lafeltrinelli.it/mindhunter-storia-vera-del-primo-libro-john-douglas-mark-olshaker/e/9788850259434%22");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Rosemary's baby"){
+        location.replace("https://www.lafeltrinelli.it/rosemary-s-baby-libro-ira-levin/e/9788869980008");
+    }
+
+    
 }
-
-
-/*
-var fdisgust = ["Il Gladiatore","Les Miserables","Marie Antoinette"];
-var ffear = ["It","La Madre","Lights Out"];
-
-var fneutral = ["10 cose che odio di te","Call me by your name","Lei"];
-var fsad = ["Giovani ribelli","Ragazze interrotte","Velvet buzzsaw"];
-var fsurprise = ["Avatar","Harry Potter","The Hobbit"];*/
