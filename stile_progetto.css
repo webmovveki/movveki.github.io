@@ -357,8 +357,17 @@ main#emozione {
 }
 
 /*Pagina chi siamo*/
+body#chisiamo {
+    background: linear-gradient(-45deg, #7fffd4, #00bfff, #7b68ee, #ffa500);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 150vh;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0025FF;
+}
+
 main#chi_siamo{
-    margin-top: 119px;
     padding: 80px 1%;
     max-width: 1920px;
     margin-left: auto;
@@ -381,10 +390,22 @@ main#chi_siamo{
 }
 
 #progetto {
-    margin-top: 130px;
+    margin-top: 100px;
+    width: 1920px;
+    height: 370px;
+    margin-bottom: 30px;
+}
+
+#partner {
+    margin-top: 200px;
     width: 1302px;
     height: 385px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+.loghipartner {
+    margin: 20px 57px 20px 57px;
+    display: inline-block;
 }
 
 .nowrap {
@@ -449,22 +470,17 @@ input[type="range"]::-webkit-slider-thumb {
 
 /*Pagina risultati*/
 main#risultati{
-    margin-top: 70px;
-    padding: 80px 1%;
+    margin-top: 5px;
+    padding: 40px 1%;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
 }
 
 #risultati {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 60px;
 }
 
 .immagini-risultati {
@@ -474,7 +490,7 @@ main#risultati{
 
 #refresh {
     width: 1920px;
-    height: 62px;
+    height: 50px;
     margin: 0px 10px 10px 0px;
     align-items: right;
     flex-direction: column;
