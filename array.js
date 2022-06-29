@@ -406,9 +406,11 @@ function filmredirect ()
     if(document.getElementById ("filmTxt").innerText== "The Hobbit"){
         location.replace("https://www.netflix.com/watch/70226288?source=35");
     }
-
+}
 
     
+function serieredirect ()
+{
     //Serie Angry//
     if(document.getElementById ("filmTxt").innerText== "Hannibal"){
         location.replace("https://www.primevideo.com/dp/amzn1.dv.gti.226f86db-cdf0-42af-9e72-934fc98fc2a0?autoplay=0&ref_=atv_cf_strg_wb");
@@ -499,9 +501,11 @@ function filmredirect ()
     if(document.getElementById ("filmTxt").innerText== "Shadowhunters"){
         location.replace("https://www.netflix.com/title/80084447");
     }
+}
 
 
-
+function musicaredirect ()
+{
     //Musica Angry//
     if(document.getElementById ("filmTxt").innerText== "Derek f"){
         location.replace("https://open.spotify.com/artist/1XPa3yIPMAIYeE8AXvXgtH");
@@ -592,7 +596,62 @@ function filmredirect ()
     if(document.getElementById ("filmTxt").innerText== "Sham Stalin"){
         location.replace("https://open.spotify.com/artist/5eMSbMxRj2iFooDP4b6XEC");
     }
+}
 
+
+function libriredirect ()
+{
+    //Libri Angry//
+    if(document.getElementById ("libriTxt").innerText== "La psichiatra"){
+        location.replace("https://www.lafeltrinelli.it/psichiatra-libro-wulf-dorn/e/9788850226719?queryId=2dee048595c2f59b7680d188c458941c");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Mindhunter"){
+        location.replace("https://www.lafeltrinelli.it/mindhunter-storia-vera-del-primo-libro-john-douglas-mark-olshaker/e/9788850259434%22");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Rosemary's baby"){
+        location.replace("https://www.lafeltrinelli.it/rosemary-s-baby-libro-ira-levin/e/9788869980008");
+    }
+
+    //Libri Disgust//
+    if(document.getElementById ("libriTxt").innerText== "Guerra e Pace"){
+        location.replace("https://www.lafeltrinelli.it/guerra-pace-libro-lev-tolstoj/e/9788817117388?queryId=854eda1897cb4d4ef1b3bd7c15529c20");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Notre Dame"){
+        location.replace("https://www.lafeltrinelli.it/notre-dame-de-paris-libro-victor-hugo/e/9788807901232");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Piccole donne"){
+        location.replace("https://www.lafeltrinelli.it/piccole-donne-libro-louisa-may-alcott/e/9788809872066?queryId=4a3b2737e679b0a5af5a9f070134db19");
+    }
+
+    //Libri Fear//
+    if(document.getElementById ("libriTxt").innerText== "Lovecraft"){
+        location.replace("https://www.lafeltrinelli.it/cthulhu-racconti-del-mito-libro-howard-p-lovecraft/e/9788804669449?queryId=f02f66128f96a369d302bf23c24489c3");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Poe"){
+        location.replace("https://www.lafeltrinelli.it/racconti-del-mistero-ediz-illustrata-libro-edgar-allan-poe/e/9788817077439?queryId=87ee5b87e5bcd07eafd36c1c515ee800");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Salems lot"){
+        location.replace("https://www.lafeltrinelli.it/notti-di-salem-ebook-stephen-king/e/9788873398844?queryId=f8a15c8c7bc6975afcab1abc8f685178");
+    }
+
+    //Libri Happy//
+    if(document.getElementById ("libriTxt").innerText== "Bridget Jones"){
+        location.replace("https://www.lafeltrinelli.it/diario-di-bridget-jones-libro-helen-fielding/e/9788817070140");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "I love shopping con mia sorella"){
+        location.replace("https://www.lafeltrinelli.it/love-shopping-con-mia-sorella-libro-sophie-kinsella/e/9788804718772?queryId=c4d241db4dbff346c874c894c34e803d");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "I love shopping"){
+        location.replace("https://www.lafeltrinelli.it/love-shopping-libro-sophie-kinsella/e/9788804718789?queryId=3edbc8b03986164776f54411e8009b5d");
+    }
 
     //Libri Neutral//
     if(document.getElementById ("libriTxt").innerText== "Anna Karenina"){
@@ -607,19 +666,96 @@ function filmredirect ()
         location.replace("https://www.lafeltrinelli.it/orgoglio-pregiudizio-libro-jane-austen/e/9788807900846?queryId=e2e46a0509b1137c8c0bbd9b3c62095f");
     }
 
-
-    //Libri Angry//
-    if(document.getElementById ("libriTxt").innerText== "La psichiatra"){
-        location.replace("https://www.lafeltrinelli.it/psichiatra-libro-wulf-dorn/e/9788850226719?queryId=2dee048595c2f59b7680d188c458941c");
+    //Libri Sad//
+    if(document.getElementById ("libriTxt").innerText== "Dorian Gray"){
+        location.replace("https://www.lafeltrinelli.it/ritratto-di-dorian-gray-libro-oscar-wilde/e/9788807900587");
     }
 
-    if(document.getElementById ("libriTxt").innerText== "Mindhunter"){
-        location.replace("https://www.lafeltrinelli.it/mindhunter-storia-vera-del-primo-libro-john-douglas-mark-olshaker/e/9788850259434%22");
+    if(document.getElementById ("libriTxt").innerText== "Dracula"){
+        location.replace("https://www.lafeltrinelli.it/dracula-libro-bram-stoker/e/9788807901836?queryId=d9195d81020313220e9c86da6ccbef54");
     }
 
-    if(document.getElementById ("libriTxt").innerText== "Rosemary's baby"){
-        location.replace("https://www.lafeltrinelli.it/rosemary-s-baby-libro-ira-levin/e/9788869980008");
+    if(document.getElementById ("libriTxt").innerText== "Frankenstein"){
+        location.replace("https://www.lafeltrinelli.it/frankenstein-libro-mary-shelley/e/2000000095295");
     }
 
-    
+    //Libri Surprise//
+    if(document.getElementById ("libriTxt").innerText== "Alice nel Paese delle meraviglie"){
+        location.replace("https://www.lafeltrinelli.it/alice-nel-paese-delle-meraviglie-libro-lewis-carroll/e/9788807900150");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "Cronache del Mondo emerso"){
+        location.replace("https://www.lafeltrinelli.it/cronache-del-mondo-emerso-saga-libro-licia-troisi/e/9788804669920");
+    }
+
+    if(document.getElementById ("libriTxt").innerText== "The Witcher"){
+        location.replace("https://www.lafeltrinelli.it/guardiano-degli-innocenti-the-witcher-libro-andrzej-sapkowski/e/9788842932413?queryId=524d38bf5366858e82e307256a7a4f63");
+    }
+}
+
+
+function ciboredirect ()
+{
+    //Cibo Angry//
+    if(document.getElementById ("ciboTxt").innerText== "Dark cookies"){
+        location.replace("https://ricette.giallozafferano.it/Biscotti-al-cioccolato.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Pumpkin spice latte"){
+        location.replace("https://blog.giallozafferano.it/cucinavistamare/pumpkin-spice-latte/");
+    }
+
+    //Cibo Disgust//
+    if(document.getElementById ("ciboTxt").innerText== "Club sandwich"){
+        location.replace("https://ricette.giallozafferano.it/Madame-club-sandwich.html");
+    }
+
+    //Cibo Fear//
+    if(document.getElementById ("ciboTxt").innerText== "Bloody Mary"){
+        location.replace("https://www.cucchiaio.it/ricetta/bloody-mary/");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Pumpkin Pie"){
+        location.replace("https://ricette.giallozafferano.it/Pumpkin-pie.html");
+    }
+
+    //Cibo Happy//
+    if(document.getElementById ("ciboTxt").innerText== "Cioccolata calda"){
+        location.replace("https://ricette.giallozafferano.it/Cioccolata-calda.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Pancake"){
+        location.replace("https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Waffle"){
+        location.replace("https://ricette.giallozafferano.it/Waffle.html");
+    }
+
+    //Cibo Neutral//
+    if(document.getElementById ("ciboTxt").innerText== "Cosmopolitan"){
+        location.replace("https://ricette.giallozafferano.it/Cosmopolitan.html");
+    }
+
+    //Cibo Sad//
+    if(document.getElementById ("ciboTxt").innerText== "Cioccolata calda"){
+        location.replace("https://ricette.giallozafferano.it/Cioccolata-calda.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Pancake"){
+        location.replace("https://ricette.giallozafferano.it/Pancakes-allo-sciroppo-d-acero.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Waffle"){
+        location.replace("https://ricette.giallozafferano.it/Waffle.html");
+    }
+
+    //Cibo Surprise//
+    if(document.getElementById ("ciboTxt").innerText== "Gelato"){
+        location.replace("https://ricette.giallozafferano.it/Gelato-bites.html");
+    }
+
+    if(document.getElementById ("ciboTxt").innerText== "Torta cioccolato"){
+        location.replace("https://ricette.giallozafferano.it/Torta-al-cioccolato.html");
+    }
 }
