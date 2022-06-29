@@ -471,7 +471,7 @@ input[type="range"]::-webkit-slider-thumb {
 /*Pagina risultati*/
 main#risultati{
     margin-top: 5px;
-    padding: 40px 1%;
+    padding: 80px 1%;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
