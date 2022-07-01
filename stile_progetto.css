@@ -343,6 +343,14 @@ main#telecamera {
     text-align: center;
 }
 
+video#webcam {
+    display: hidden;
+}
+
+/*#webcam {
+    display: "hidden";
+}*/
+
 /*Pagina Emozione*/
 main#emozione {
     margin-top: 250px;
