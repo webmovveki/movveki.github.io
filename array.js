@@ -87,7 +87,7 @@ var imgmdisgust = ["./Immagini/Disgust/musica/falls of glory.png","./Immagini/Di
 var imgmfear = ["./Immagini/Fear/musica/marilyn manson.png","./Immagini/Fear/musica/peter grundy.png","./Immagini/Fear/musica/rob zombie.png"];
 var imgmhappy = ["./Immagini/Happy/musica/caleb hyles.png","./Immagini/Happy/musica/ed sheeran.png","./Immagini/Happy/musica/michael bublè.png"];
 var imgmneutral = ["./Immagini/Neutral/musica/ed sheeran.png","./Immagini/Neutral/musica/michael bublè.png","./Immagini/Neutral/musica/ultimo.png"];
-var imgmsad = ["./Immagini/Sad/musica/ic3 peak.png","./Immagini/Neutral/musica/jozef van wissem.png","./Immagini/Neutral/musica/peter grundy.png"];
+var imgmsad = ["./Immagini/Sad/musica/ic3 peak.png","./Immagini/Sad/musica/jozef van wissem.png","./Immagini/Sad/musica/peter grundy.png"];
 var imgmsurprise = ["./Immagini/Surprise/musica/falls of glory.png","./Immagini/Surprise/musica/ivan torrent.png","./Immagini/Surprise/musica/sham stalin.png"];
 
 //serie tv
