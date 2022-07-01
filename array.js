@@ -83,7 +83,7 @@ var imglsurprise = ["./Immagini/Surprise/libri/alice nel paese delle meraviglie.
 
 //musica
 var imgmangry = ["./Immagini/Angry/musica/derek f.png","./Immagini/Angry/musica/ic3 peak.png","./Immagini/Angry/musica/jozef van wissem.png"];
-var imgmdisgust = ["./Immagini/Disgust/musica/falls of glory.png","./Immagini/Disgust/musica/ivan torrent.png","./Immagini/Disgust/musica/peter grundy.png"];
+var imgmdisgust = ["./Immagini/Disgust/musica/falls of glory.png","./Immagini/Disgust/musica/Ivan Torrent.png","./Immagini/Disgust/musica/peter grundy.png"];
 var imgmfear = ["./Immagini/Fear/musica/marilyn manson.png","./Immagini/Fear/musica/peter grundy.png","./Immagini/Fear/musica/rob zombie.png"];
 var imgmhappy = ["./Immagini/Happy/musica/caleb hyles.png","./Immagini/Happy/musica/ed sheeran.png","./Immagini/Happy/musica/michael bublè.png"];
 var imgmneutral = ["./Immagini/Neutral/musica/ed sheeran.png","./Immagini/Neutral/musica/michael bublè.png","./Immagini/Neutral/musica/ultimo.png"];
