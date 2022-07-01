@@ -344,12 +344,9 @@ main#telecamera {
 }
 
 video#webcam {
-    display: hidden;
+    visibility: hidden;
 }
 
-/*#webcam {
-    display: "hidden";
-}*/
 
 /*Pagina Emozione*/
 main#emozione {
