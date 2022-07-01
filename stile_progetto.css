@@ -369,7 +369,7 @@ body#chisiamo {
     background: linear-gradient(-45deg, #7fffd4, #00bfff, #7b68ee, #ffa500);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 150vh;
+    height: 180vh;
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
     color: #0025FF;
@@ -392,15 +392,15 @@ main#chi_siamo{
 }
 
 #progetto {
+    padding: 50px 1%;
     margin-top: 100px;
-    width: 1920px;
     height: 370px;
     margin-bottom: 30px;
 }
 
 #partner {
+    padding: 50px 1%;
     margin-top: 200px;
-    width: 1302px;
     height: 385px;
     margin-bottom: 80px;
 }
