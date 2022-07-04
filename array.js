@@ -293,23 +293,23 @@ switch(emozione) {
         document.getElementById("serieTxt").innerHTML= ssurprise[serie];
 
         var img = document.getElementById("film");
-        img.src = imgfangry[film];
+        img.src = imgfsurprise[film];
         document.getElementById("film").innerHTML=img;
 
         var img = document.getElementById("cibo");
-        img.src = imgcangry[cibo];
+        img.src = imgcsurprise[cibo];
         document.getElementById("cibo").innerHTML=img;
         
         var img = document.getElementById("libri");
-        img.src = imglangry[libri];
+        img.src = imglsurprise[libri];
         document.getElementById("libri").innerHTML=img;
 
         var img = document.getElementById("musica");
-        img.src = imgmangry[musica];
+        img.src = imgmsurprise[musica];
         document.getElementById("musica").innerHTML=img;
 
         var img = document.getElementById("serie");
-        img.src = imgsangry[serie];
+        img.src = imgssurprise[serie];
         document.getElementById("serie").innerHTML=img;
     break;
 }
